@@ -3,6 +3,7 @@
         padding: auto;
         margin: auto;
         height: auto;
+        width: auto;
         margin-top: 10%;
     }
 
@@ -187,6 +188,137 @@
         text-align: center;
     }
 
+    /* Payment Content Design */
+    .co-pay-container {
+        width: 100%;
+        padding: 10% 15%;
+    }
+
+    .co-pay-container .pay-content {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .co-pay-container .pay-content .left {
+        width: 100%;
+        display: block;
+        padding: 5%;
+        margin-top: 75%;
+    }
+
+    .co-pay-container .pay-content .left h1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        color: var(--blue);
+    }
+
+    .co-pay-container .pay-content .left h3 {
+        font-size: 25px;
+        color: var(--gunmetal);
+        margin-bottom: 2%;
+    }
+
+    .co-pay-container .pay-content .left p {
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+
+    .co-pay-container .pay-content .right-box {
+        padding: 0;
+    }
+
+    .co-pay-container .pay-content .right-box h3 {
+        color: var(--gunmetal);
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .co-pay-container .pay-content .right-box form {
+        border: 2px solid var(--gunmetal);
+        width: 380px;
+    }
+
+    .co-pay-container .pay-content .right-box .pay-value {
+        width: 200px;
+        border: 1px solid var(--gunmetal);
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .co-pay-container .pay-content .right-box form input {
+        padding: 10px;
+        margin-top: 2%;
+        width: 250px;
+        display: none;
+    }
+
+    .co-pay-container .pay-content .right-box form button {
+        padding: 15px;
+        width: 200px;
+        color: var(--white);
+        font-size: 20px;
+        font-weight: 500;
+        background: var(--gunmetal);
+        border: none;
+        border-radius: 5px;
+        margin-top: 2%;
+    }
+
+    .pay-process {
+        display: block;
+    }
+
+    .pay-process .pay-btn {
+        display: flex;
+    }
+
+    .pay-process .pay-btn button {
+        margin-left: 2%;
+    }
+
+    .pay-process .process-box {
+        width: 150px;
+        margin-left: 35%;
+        height: 150px;
+        border-radius: 50%;
+        border: 20px solid var(--borders);
+        border-top-color: var(--blue);
+        animation: loader 1s infinite;
+        background: transparent;
+    }
+
+    .pay-process .cancel-payment-box {
+        width: 250px;
+        margin-left: 39%;
+        height: 250px;
+        border: 20px solid var(--borders);
+        border-left-color: red;
+        border-right-color: red;
+        border-top: none;
+        border-bottom: none;
+        background: transparent;
+    }
+
+    @keyframes loader {
+        to {
+            top: 10%;
+        }
+
+        from {
+            transform: rotate(360deg);
+        }
+    }
+
+    .pay-process h1 {
+        font-size: 25px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+
 }
 
 
@@ -197,6 +329,7 @@
         height: auto;
         margin-top: 10%;
     }
+
     nav ul li {
         font-size: 20px;
         text-align: center;
