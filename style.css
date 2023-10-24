@@ -599,38 +599,38 @@ ul li {
     margin-bottom: 2%;
 }
 
-.co-pay-container .pay-content .right {
+.co-pay-container .pay-content .right-box {
     margin-right: 5%;
     padding: 20px;
 }
 
-.co-pay-container .pay-content .right h3 {
+.co-pay-container .pay-content .right-box h3 {
     color: var(--gunmetal);
     text-align: center;
     font-size: 25px;
     font-weight: 600;
 }
 
-.co-pay-container .pay-content .right form {
+.co-pay-container .pay-content .right-box form {
     border: 2px solid var(--gunmetal);
     padding: 25px;
 }
 
-.co-pay-container .pay-content .right .pay-value {
+.co-pay-container .pay-content .right-box .pay-value {
     width: 430px;
     border: 1px solid var(--gunmetal);
     font-size: 20px;
     padding: 10px;
 }
 
-.co-pay-container .pay-content .right form input {
+.co-pay-container .pay-content .right-box form input {
     padding: 10px;
     margin-top: 2%;
     width: 430px;
     display: block;
 }
 
-.co-pay-container .pay-content .right form button {
+.co-pay-container .pay-content .right-box form button {
     padding: 15px;
     width: 430px;
     color: var(--white);
@@ -800,7 +800,7 @@ ul li {
         background: var(--gunmetal);
         font-size: 15px;
         font-weight: 600;
-        margin-top: 20%;
+        margin-top: 10%;
         margin-left: 5%;
         color: var(--white);
     }
