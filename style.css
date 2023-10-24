@@ -719,6 +719,10 @@ ul li {
         display: flex;
         justify-content: space-between;
     }
+    nav ul li {
+        font-size: 20px;
+        text-align: center;
+    }
 
     nav .ex a {
         padding: 10px;
